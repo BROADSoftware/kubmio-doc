@@ -1,5 +1,5 @@
 
-# Overview
+This is the repo for the manual of [Kubmio project](https://github.com/kubotal/kubmio)
 
 Kubmio is a [MinIO Object Store](https://min.io/) resource operator. Aim is to handle MinIO resources, such as:
 
@@ -10,6 +10,8 @@ Kubmio is a [MinIO Object Store](https://min.io/) resource operator. Aim is to h
 - Groups
 - AccessKeys
 - ...
+
+The documentation can be found [here](https://kubotal.github.io/kubmio-doc/)
 
 Kubmio does not manage installation and configuration of a MinIO cluster or tenant in Kubernetes. This is the role of the [MinIO operator](https://github.com/minio/operator)
 
@@ -28,4 +30,6 @@ Kubmio does not manage installation and configuration of a MinIO cluster or tena
 - [cert-manager](https://cert-manager.io/)
 - An account with full admin rights.
 - A MinIO Server with admin credentials.
+
+
 
