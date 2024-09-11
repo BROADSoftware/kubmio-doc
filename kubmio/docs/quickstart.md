@@ -6,7 +6,7 @@
 To install Kubmio, just use the corresponding Helm chart:
 
 ```
-helm -n kubmio upgrade -i --create-namespace kubmio oci://quay.io/kubotal/charts/kubmio --version 0.5.0-snapshot
+helm -n kubmio upgrade -i --create-namespace kubmio oci://quay.io/kubotal/charts/kubmio --version 0.4.0-snapshot
 ```
 
 Helm chart default values should be fine for a standard installation.

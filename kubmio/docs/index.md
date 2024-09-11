@@ -18,7 +18,7 @@ Kubmio does not manage installation and configuration of a MinIO cluster or tena
 - Support all MinIO Objects as Kubernetes Resources.
 - Able to handle several MinIO clusters
 - Handle most of the resources properties.
-- Resources naming decoration, to ensure global uniqueness and allow corporate naming rules enforcing.
+- Allow multi-tenancy with resources isolation.
 - Support for LDAP connected MinIO Storage Server
 
 ## Requirement
@@ -28,4 +28,3 @@ Kubmio does not manage installation and configuration of a MinIO cluster or tena
 - [cert-manager](https://cert-manager.io/)
 - An account with full admin rights.
 - A MinIO Server with admin credentials.
-
